@@ -9,6 +9,7 @@
         .grid_box {display: grid;
                     grid-template-columns: 150px 1fr;}
         .right_box {padding-left: 20px;}
+        .right_box img {width: 500px;}
         @media(max-width:600px) 
             {
                 .grid_box {display:block;}
