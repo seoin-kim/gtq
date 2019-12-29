@@ -4,15 +4,19 @@
         h1{font-size: 50px; border-bottom: 1px solid gray; padding-bottom: 20px; margin-bottom: 0;}
         article {margin-top: 0px; margin-bottom: 20px;}
         .ipc {border-top: 20px solid #c2c2c2;}
-        .ipc img {border: 1px  solid black; padding: 10px; margin-top: 20px;}
+
         .grid_box ol {font-size:20px; border-right: 1px solid gray; margin: 0; padding-left: 30px; padding-top: 20px;}
         .grid_box {display: grid;
                     grid-template-columns: 150px 1fr;}
         .right_box {padding-left: 20px;}
-        .right_box img {width: 500px;}
+
+        .right_box img {max-width:100%;}
+
+        .ipc img {border: 1px  solid black; padding: 10px; margin-top: 20px; width: 187px;}
         @media(max-width:600px) 
             {
                 .grid_box {display:block;}
                 .grid_box ol {border-right:none;}
-                .right_box img {width: 100%;}
+                .thumbnail {width: auto;}
+
             }
