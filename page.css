@@ -13,4 +13,5 @@
             {
                 .grid_box {display:block;}
                 .grid_box ol {border-right:none;}
+                .right_box img {width: 100%;}
             }
